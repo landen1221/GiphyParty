@@ -32,9 +32,8 @@ function newGif(res) {
 
 const remove = document.getElementById('remove')
 remove.addEventListener('click', function(e) {
-  const myID = document.getElementById('gifs')
+  document.getElementById('gifs').innerHTML = ""
   input.value = ""
-  myID.innerHTML = ""
 })
 
 
